@@ -1,0 +1,216 @@
+/* Setting the margin-top of the title to 0. */
+h1.title {
+    margin-top: 0;
+    background-color: #76B536;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-bottom: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* Making the logo have a padding of 15px at the top, a width of 40px, and a height of 40px. */
+.logo {
+    padding-top: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+/* Changing the background color of the top of the page to a light green color, setting the margin to
+0, and changing the color of the text to white. */
+div.top {
+    background-color: #76B536;
+    margin-top: 0;
+    border-top: 15px;
+    color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+/* Making the list items display inline, removing the list style, and making the list items
+have equal spacing between them. */
+.nav-list {
+    display: inline;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* Making the text of the buttons in the top navbar white. */
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Making the text of the buttons in the bottom navbar white. */
+.nav-list-b a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Making the list items on the bottom display inline, removing the list style, and making the list items
+have equal spacing between them. */
+.nav-list-b {
+    display: inline;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 8px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* Changing the background color of the buttons to a dark green color and changing the color of the
+text to white. */
+button {
+    background-color: #416D50;
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* Setting the font of the label to the Montserrat font. */
+label {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* Making the margin at the bottom of the h2 tag 0. */
+.header h2 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/* Making the margin at the top of the page 50px. */
+.margin-top {
+    margin-top: 50px;
+}
+
+/* Making the text of the paragraph in the margin-top class be centered. */
+.margin-top p {
+    text-align: center ;
+}
+
+/* Making the image have a height of 300px, a width of 300px, a border radius of 5px,
+displaying the image as a block, and making the image centered. */
+.home-image {
+    height: 300px;
+    width: 300px;
+    border-radius: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Making the image have a height of 250px, a width of 250px, a margin left and right of auto,
+displaying the image as a block, and making the border radius 17px. */
+.image {
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 17px;
+}
+
+/* Changing the background color of the buttons in the bottom navbar to a light green color, making the
+buttons have equal spacing between them, and making the text of the buttons be in the Montserrat
+font. */
+.nav-list-b button {
+    background-color: #e9f3ed;
+    justify-content: space-evenly;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Making the text of the buttons in the bottom navbar black. */
+.nav-list-b button a{
+    color: black;
+}
+
+/* Changing the background color of the navbar to a light green color, making the padding at the bottom
+of the navbar 8px, removing the list style, and making the padding at the top of the navbar 8px. */
+nav.navbar {
+    background-color: #76B536;
+    padding-bottom: 8px;
+    list-style: none;
+    padding-top: 8px;
+    
+}
+
+
+/* Setting the background color of the body to a light green color, setting the margin to 0, and
+setting the font of the body to the Hind Siliguri font. */
+body {
+    background-color: #d6f3e1;
+    margin: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* Making the container have a max width of 360px and making the margin 0 auto. */
+.container {
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+/* Making the background color of the card white, making the padding 17px, making the border radius
+17px, making the margin left and right auto, aligning the items in the center, and making the
+display block. */
+.card {
+    background-color: white;
+    padding: 17px;
+    border-radius: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: block;
+}
+
+/* Setting the font of the h1 tag to the Montserrat font. */
+h1 {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* Setting the font of the h2 tag to the Montserrat font. */
+h2 {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* Setting the font of the h3 tag to the Montserrat font. */
+h3 {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* Making the font of the bold text in the paragraph be the Montserrat font. */
+p b {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* Making the table cells have a padding of 8px, aligning the text to the left, and making the bottom
+border of the table cells black. */
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+/* Making the background color of the even rows grey. */
+tr:nth-child(even) {
+    background-color: rgb(185, 185, 185);
+}
+
+/* Making the background color of the row grey when the mouse is hovering over it. */
+tr:hover {
+    background-color: grey;
+}
+
+/* Changing the background color of the footer to a light green color. */
+footer {
+    background-color: #76B536;
+    padding: 8px;
+}
+
+/* Setting the margin of the paragraph in the footer to 0. */
+footer p {
+    margin: 0;
+    text-align: center;
+}
